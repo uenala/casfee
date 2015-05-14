@@ -1,0 +1,49 @@
+/* basic elements */
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 75% georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000000;
+    background: #CCDCE9 url(/fileadmin/templates/hsr/html/img/layout/body-bg.gif) no-repeat bottom center;
+
+}
+p {
+    margin-top: 0;
+    text-align: justify;
+}
+h3 {
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #7D775C;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #B7A5DF;
+}
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #D4CDDC;
+}
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+    color: #9685BA;
+}
+abbr {
+    border-bottom: none;
+}
+
+.supporting {
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    width: 939px;
+}
