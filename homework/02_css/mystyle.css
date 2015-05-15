@@ -11,23 +11,42 @@ body {
     font-size: 11px;
     line-height: 15px;
     color: #000000;
-    background: #CCDCE9 url(/fileadmin/templates/hsr/html/img/layout/body-bg.gif) no-repeat bottom center;
+    background: #CCDCE9 url(http://www.hsr.ch/fileadmin/templates/hsr/html/img/layout/body-bg.gif) repeat-y top center;
 
 }
+
+/* markup styling */
+
 p {
     margin-top: 0;
     text-align: justify;
 }
+h1 {
+    background-color: #005092;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 11px;
+    padding: 3px 0 4px 7px;
+}
+h2 {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 11px;
+    padding: 3px 0 4px 7px;
+    color: #000000;
+}
 h3 {
-    font: italic normal 1.4em georgia, sans-serif;
     letter-spacing: 1px;
     margin-bottom: 0;
-    color: #7D775C;
+    color: #005092;;
 }
 a:link {
     font-weight: bold;
     text-decoration: none;
-    color: #B7A5DF;
+    color: #005092;
 }
 a:visited {
     font-weight: bold;
@@ -35,15 +54,82 @@ a:visited {
     color: #D4CDDC;
 }
 a:hover, a:focus, a:active {
-    text-decoration: underline;
-    color: #9685BA;
+    text-decoration: none;
+    color: #f68816;
 }
+
 abbr {
     border-bottom: none;
 }
 
-.supporting {
+/* layout */
+
+.page-wrapper{
+    background: url(http://www.hsr.ch/uploads/tx_icsslide/seeufer.jpg) no-repeat top center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 959px;
+}
+
+section{
+    padding-top: 210px;
+    padding-left: 250px;
+    padding-right: 327px;
+}
+
+header .summary .preamble{ /* intro */
     background-color: #FFFFFF;
-    padding-left: 20px;
-    width: 939px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+.main { /* content */
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 250px;
+    padding: 0;
+    width: 380px;
+
+    /*display: block; */
+}
+
+aside{
+
+    font-size: 10px;
+    line-height: 13px;
+    margin: 0;
+    padding: 15px 0 0 10px;
+    width: 144px;
+
+
+
+    display: block;
+}
+
+.design-selection{
+    margin: 0;
+    padding: 15px 0 20px;
+    width: 194px;
+
+    position: absolute;
+
+}
+
+.wrapper{ /* sidebar */
+    position: absolute;
+    top: 196px;
+
+}
+
+.zen-resources {
+    position: absolute;
+    top: 10px;
+    left:680px;
+}
+
+.design-archives {
+    position: absolute;
+    top: 180px;
+    left:680px;
 }
